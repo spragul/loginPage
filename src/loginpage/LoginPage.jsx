@@ -22,7 +22,7 @@ export default function LoginPage() {
   const loginuser = async ({ userdata }) => {
     try {
       console.log(userdata);
-      const response = await axios.post("http://localhost:8000/user/adduser", userdata);
+      const response = await axios.post("https://loginpage-backend-fg2s.onrender.com/user/adduser", userdata);
       console.log(response);
       if (response.data.rd == true) {
         toast.success(response.data.message);

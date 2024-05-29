@@ -6,7 +6,7 @@ function Home() {
   const [data, setData] = useState([]);
   async function fetchdata() {
     try {
-      const response = await axios.get("http://localhost:8000/user");
+      const response = await axios.get("https://loginpage-backend-fg2s.onrender.com/user");
       if (response.data.rd == true) {
         toast.success(response.data.message);
         setData(response.data.userlist);
