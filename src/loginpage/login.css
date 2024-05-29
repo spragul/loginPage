@@ -1,0 +1,174 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+     width: auto;
+     height: 100vh;
+     padding: none;
+     background-color: #2437c5
+ }
+ .login-card{
+     width: 450px;
+     height: 550px;
+     padding: 10px;
+     display: flex;
+     border: 2px solid green;
+     background-color: #d1c1c16e;
+     margin-top: 20px;
+ }
+ 
+ .buttonIn { 
+    
+     position: relative; 
+ } 
+   
+ .login-input { 
+     margin: 0px; 
+     padding-right: 10px; 
+     color: black;
+     width: 350px; 
+     outline: none; 
+     height: 35px; 
+     border-radius: 5px; 
+     font-size: medium;
+ } 
+   
+ .input-button { 
+     position: absolute; 
+     top: 0; 
+     border-radius: 5px; 
+     right: 0px; 
+     z-index: 2; 
+     border: none; 
+     top: 2px; 
+     height: 30px; 
+     cursor: pointer;  
+     transform: translateX(2px); 
+     margin-right: 50px;
+ } 
+ ul{
+     list-style-type: none;
+     margin: none;
+ }
+ .text-part{
+   width: 450px;
+   height: 550px;
+
+ }
+ .log-content{
+     display: flex;
+     justify-content: baseline;
+     margin: none;
+     flex-direction: column;
+     margin-top: 5px;
+ }
+ .log-content label{
+     text-align: left;
+     font-size: larger;
+ }
+ .log-content h3,.log-content p{
+     text-align: center;
+     margin: none;
+ }
+.log-content-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+ .log-dum-btn{
+     width: 300px;
+     height: 35px;
+     border-radius: 5px;
+     background-color: darkviolet;
+     margin-bottom: 5px;
+     color: white;
+ }
+ .clear-btn{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(230, 38, 38);
+    color: white;
+ }
+ .clear-btn:hover{
+    background-color: white;
+    color: black;
+ }
+ .log-dum-btn:hover{
+     background-color: rgb(239, 226, 154);
+     color: black;
+ }
+
+.error-p{
+    background-color: crimson;
+    color: white;
+    width: 360px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    margin: none;
+}
+ @media screen and (max-width:600px) {
+     .login-card{
+         width: 370px;
+         height: 100%;
+         padding: 10px;
+         margin-top:10px;
+         display: flex;
+         flex-direction: column;
+         border: 2px solid green;
+         background-color: #d1c1c16e;
+     }
+     .text-part{
+         width: 360px;
+         height: 380px;
+         padding: 5px;
+         margin-top: 50px;
+       }
+       .log-content{
+         display: flex;
+         justify-content: baseline;
+         margin: none;
+         flex-direction: column;
+         margin-top: 5px;
+     }
+     .login-input { 
+         margin: 0px; 
+         padding:2px; 
+         width: 300px;
+         outline: none; 
+         height: 35px; 
+         border-radius: 5px; 
+     } 
+     
+     .input-button{
+        margin-right: 0px;
+        padding: 4px;
+     }
+     .log-content-button{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+     }
+     .log-dum-btn{
+         width: 100px;
+     }
+     .clear-btn{
+        width: 100px;
+     }
+     .buttonIn{
+     width: 300px
+     }
+     .error-p{
+        background-color: crimson;
+        color: white;
+        width: 300px;
+        height: 30px;
+        padding: 2px;
+        border-radius: 10px;
+        margin: none;
+    }
+ }
